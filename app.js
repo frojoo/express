@@ -22,5 +22,7 @@ app.listen(port, () => {
 
 //get은 READ=조회, post는 CREATE=생성, put(or patch)은 UPDATE=전체변경(부분변경) , delete는 DELETE=삭제
 
-// 고칠때마다 node app.js하는 것을 막기 위해 npm i nodemon 설치
+// 고칠때마다 node app.js하는 것을 막기 위해 npm i -D nodemon 설치
 // 이후 package.json 에 script에 "dev": "nodemon app.js" 적기
+
+//다시 삭제하고 재설치 하고 싶다면 npm rm -rf nodemon
